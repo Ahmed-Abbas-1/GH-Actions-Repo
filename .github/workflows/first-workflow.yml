@@ -5,7 +5,7 @@ on:
       - "master"
 jobs:
   first-workflow-job:
-    name: firsr job
+    name: first job
     runs-on: ubuntu-latest
     steps:
       - name: run bash command

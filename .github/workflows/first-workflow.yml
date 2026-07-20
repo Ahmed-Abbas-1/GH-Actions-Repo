@@ -1,13 +1,13 @@
 name: first workflow
 on:
-    push:
-        branches:
-            - "master"
+  push:
+    branches:
+      - "master"
 jobs:
-    first-workflow-job:
-        name: firsr job
-        runs-on: ubuntu-latest
-        steps:
-            - name: run bash command
-              run: echo "first workflow"
-              shell: bash
+  first-workflow-job:
+    name: firsr job
+    runs-on: ubuntu-latest
+    steps:
+      - name: run bash command
+        run: echo "first workflow"
+        shell: bash
